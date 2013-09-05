@@ -149,4 +149,4 @@ wows.describe('XML Node Parse').addBatch({
 		}
 		//console.assert(xmldomresult == domjsresult,xmldomresult.length,i)
     }
-}).run(); // Run it
+}).export(module); // Run it

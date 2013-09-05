@@ -86,4 +86,4 @@ wows.describe('html normalizer').addBatch({
     	var dom = new DOMParser().parseFromString('<textarea>alert(a<b&&c?"<br>":">>");</textarea>','text/xml');
     	console.assert(dom == '<textarea>alert(a&lt;b&amp;&amp;c?"<br/>":">>");</textarea>',dom+'')
 	}
-}).run();
+}).export(module);

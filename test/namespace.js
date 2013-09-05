@@ -29,4 +29,4 @@ wows.describe('XML Namespace Parse').addBatch({
        console.assert(root.lastChild.namespaceURI=='http://test.com')
        console.assert(root.firstChild.nextSibling.lookupNamespaceURI('p') == 'http://test.com')
     }
-}).run(); // Run it
+}).export(module); // Run it

@@ -5,4 +5,4 @@ var DOMParser = require('xmldom').DOMParser;
 wows.describe('XML Namespace Parse').addBatch({
 	"test":function(){}
     //see namespace.js
-}).run(); // Run it
+}).export(module); // Run it

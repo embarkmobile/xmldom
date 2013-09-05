@@ -47,4 +47,4 @@ wows.describe('DOMLocator').addBatch({
 	console.assert(/\n@#\[line\:2,col\:2\]/.test(error.join(' ')),'line,col must record:'+error);
 	console.log(textNode.lineNumber+'/'+textNode.columnNumber)
   }
-}).run();
+}).export(module);

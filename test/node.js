@@ -87,7 +87,7 @@ wows.describe('XML Node Parse').addBatch({
     	var source2 = new XMLSerializer().serializeToString(doc);
     	console.assert(source == source2,source2);
 	}
-}).run(); // Run it
+}).export(module); // Run it
 //var ELEMENT_NODE                = NodeType.ELEMENT_NODE                = 1;
 //var ATTRIBUTE_NODE              = NodeType.ATTRIBUTE_NODE              = 2;
 //var TEXT_NODE                   = NodeType.TEXT_NODE                   = 3;

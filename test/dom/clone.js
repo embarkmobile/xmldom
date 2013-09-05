@@ -19,4 +19,4 @@ wows.describe('XML Namespace Parse').addBatch({
 		console.assert(doc1 == doc3+'')
 		console.assert(doc2 != doc3+'')
     }
-}).run(); // Run it
+}).export(module); // Run it

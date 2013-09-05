@@ -28,4 +28,4 @@ wows.describe('XML Node Parse').addBatch({
      	var dom = new DOMParser().parseFromString('<xml xmlns="1" xmlns:a="2" a:test="3/">','text/xml');
     	var dom = new DOMParser().parseFromString('<xml xmlns="1" xmlns:a="2" a:test="3" />','text/xml');
 	}
-}).run();
+}).export(module);

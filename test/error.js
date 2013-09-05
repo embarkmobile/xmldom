@@ -68,4 +68,4 @@ wows.describe('errorHandle').addBatch({
 	}
 	console.assert(false,doc+' should be null');
   }
-}).run();
+}).export(module);

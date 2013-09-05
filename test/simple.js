@@ -8,4 +8,4 @@ wows.describe('errorHandle').addBatch({
 	var doc = parser.parseFromString('<html><body title="1<2"></body></html>', 'text/html');
 	console.log(doc+'');
   }
-}).run();
+}).export(module);

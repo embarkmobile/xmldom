@@ -61,4 +61,4 @@ wows.describe('XML attrs').addBatch({
     "set document existed attribute":function(){
     	
     }
-}).run(); // Run it
+}).export(module); // Run it

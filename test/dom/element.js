@@ -136,4 +136,4 @@ wows.describe('XML Namespace Parse').addBatch({
     },
     "self append failed":function(){
     }
-}).run(); // Run it
+}).export(module); // Run it
